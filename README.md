@@ -1,8 +1,8 @@
 # Java Advanced Concepts Learning Repository 📖
 
 This repository contains code that I have created to learn advanced Java concepts such as enums, interfaces, lambda expressions, optionals, generics, and more.
-Table of Contents
 
+## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Java Concepts Covered](#Java-Concepts-Covered)
@@ -24,6 +24,9 @@ Ensure that you have Java Development Kit (JDK) installed on your machine and Ja
 Open the cloned repository in your preferred Java IDE.
 Navigate to the src directory to view the source code for different Java concepts.
 Run the individual Java files to see the output of the code and understand how each concept works.
+
+> ***Note***
+> I used Eclipse IDE, that's why you will find some files related to it!
 
 ## Java Concepts Covered
 
