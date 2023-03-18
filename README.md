@@ -26,7 +26,7 @@ Navigate to the src directory to view the source code for different Java concept
 Run the individual Java files to see the output of the code and understand how each concept works.
 
 > ***Note***
-> I used Eclipse IDE, that's why you will find some files related to it!
+> I used Eclipse IDE (Java Project), that's why you will find some files related to it!
 
 ## Java Concepts Covered
 
