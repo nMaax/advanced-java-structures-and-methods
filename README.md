@@ -42,6 +42,6 @@ This repository contains code that covers the following advanced Java concepts:
 
 Contributions are welcome! If you find any bugs or would like to suggest any improvements, please feel free to raise an issue or submit a pull request.
 
-##License
+## License
 
 This project is licensed under the [MIT License](https://mit-license.org/).
