@@ -30,10 +30,10 @@ Run the individual Java files to see the output of the code and understand how e
 
 This repository contains code that covers the following advanced Java concepts:
 
-* Enums
+* Enums and Records
 * Interfaces
 * Lambda expressions
-* Optional
+* Optionals
 * Generics
 * Functional programming
 * Streams
