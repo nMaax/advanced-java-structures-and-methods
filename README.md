@@ -14,7 +14,7 @@ Table of Contents
 Clone the repository to your local machine using the command (or fork it on your GitHub account):
 
 ```bash
-git clone https://github.com/nMaax/java-advanced-concepts-learning.git
+git clone https://github.com/nMaax/advanced-java-structures-and-methods.git
 ```
 Then import the project in Eclipse
 
