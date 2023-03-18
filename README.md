@@ -11,11 +11,12 @@ Table of Contents
 
 ## Installation
 
-Clone the repository to your local machine using the command:
+Clone the repository to your local machine using the command (or fork it on your GitHub account):
 
 ```bash
 git clone https://github.com/your-username/java-advanced-concepts-learning.git
 ```
+Then import the project in Eclipse
 
 Ensure that you have Java Development Kit (JDK) installed on your machine and Java SE 16 or above.
     
