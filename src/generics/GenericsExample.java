@@ -102,7 +102,46 @@ public class GenericsExample {
 		
 		unknownList = new ArrayList<String>(); // This will work
 		//objectList = new ArrayList<String>(); // This won't since ArrayList<String> is NOT a subclass of ArrayList<Object>, even tho String IS a subclass of Object
-	
+		/* 
+		 * Basically... 
+		 * 
+		 * If before we could do;
+		 * 
+		 * Object x;
+		 * 
+		 * x = "Ciao";
+		 * x = 3;
+		 * 
+		 * Now (with collections) we cannot do anymore stuff like:
+		 * 
+		 * List<Object> x;
+		 * x = new ArrayList<String>(); // this is illegal, List<String> is not a child of List<Object>
+		 * x.add();
+		 * ...
+		 * 
+		 * x = new ArrayList<String>(); // this is illegal too
+		 * x.add();
+		 * ...
+		 * 
+		 * So we need to find a way to have a generic variable who can hold all types of collections;
+		 * 
+		 * List<?> x;
+		 * x = new ArrayList<String>(); // This will work
+		 * x = new ArrayList<String>(); // This will work too
+		 * 
+		 * But now we cannot anymore use .add() since the type of ArrayList is unknown.
+		 * A simple solution would be to do something like this
+		 * 
+		 * x = Arrays.asList(1, 2, 3, 4);
+		 * 
+		 * But again we could call .add() on it
+		 * 
+		 * This explains the fact that when we use <?> we know that we are 
+		 * managing a situation where we don't care what's inside of x,
+		 * so we are going to call only methods that do not depend on what is
+		 * the type stored inside
+		 */
+		
 		// Create some lists of different types
         List<Integer> intList = Arrays.asList(1, 2, 3, 4, 5);
         List<Double> doubleList = Arrays.asList(1.1, 2.2, 3.3, 4.4, 5.5);

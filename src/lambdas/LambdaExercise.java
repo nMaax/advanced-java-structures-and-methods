@@ -6,6 +6,22 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Video tutorial {@link https://youtu.be/tj5sLSFjVj4}
+ * 
+ * In Java, a lambda is a way to write a small, anonymous function that can be passed around as 
+ * a variable or argument to another function. It's a shorthand way to write code that takes a 
+ * certain input and produces a certain output, without needing to define a separate method for
+ * it.
+ *
+ * Lambda expressions are particularly useful in functional programming, where you might want to
+ * pass functions around as arguments to other functions, or store them as variables in data
+ * structures. They allow you to write more concise and readable code, and can help reduce the
+ * amount of boilerplate code you need to write.
+ * 
+ * In short, lambdas are a way to write small, reusable pieces of code that can be used in 
+ * various places in your program.
+ * */
 public class LambdaExercise {
 	
 	@SuppressWarnings("unchecked")
