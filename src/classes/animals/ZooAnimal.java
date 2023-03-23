@@ -1,4 +1,4 @@
-package animals;
+package classes.animals;
 
 public interface ZooAnimal {
 	

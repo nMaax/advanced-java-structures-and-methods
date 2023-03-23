@@ -1,4 +1,4 @@
-package animals;
+package classes.animals;
 
 public final class Panda extends Bear implements ZooAnimal{
 	

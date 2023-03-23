@@ -6,13 +6,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import animals.Bear;
-import animals.Dog;
-import animals.DogBreed;
-import animals.ForestAnimal;
-import animals.Panda;
-import animals.Tiger;
-import animals.ZooAnimal;
+import classes.animals.Bear;
+import classes.animals.Dog;
+import classes.animals.DogBreed;
+import classes.animals.ForestAnimal;
+import classes.animals.Panda;
+import classes.animals.Tiger;
+import classes.animals.ZooAnimal;
 
 /**
  *Video tutorial: {@link https://youtu.be/K1iu1kXkVoA}

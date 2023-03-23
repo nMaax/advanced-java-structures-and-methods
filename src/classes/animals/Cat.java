@@ -1,4 +1,4 @@
-package animals;
+package classes.animals;
 
 public record Cat(String name, int age) {
 	
