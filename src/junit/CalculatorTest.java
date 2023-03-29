@@ -2,12 +2,37 @@ package junit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledIf;
 
 public class CalculatorTest {
 
-    private Calculator calculator = new Calculator();
-
+    private Calculator calculator;
+    
+    @BeforeAll
+    public void load() {
+    	calculator = new Calculator();
+    }
+    
+    @AfterAll
+    public void close() {
+    	System.out.println("All test completed!");
+    }
+    
+    @BeforeEach
+    public void logInitOfTest() {
+    	System.out.println("Test started!");
+    }
+    
+    @AfterEach
+    public void logEndOfTest() {
+    	System.out.println("Test finished!");
+    }
+    
     @Test
     public void testAdd() {
         assertEquals(4, calculator.add(2, 2));
