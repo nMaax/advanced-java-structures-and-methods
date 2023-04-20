@@ -2,8 +2,10 @@ package generics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import classes.animals.Bear;
@@ -157,6 +159,17 @@ public class GenericsExample {
         System.out.println("Max of stringList: " + stringMax);
         double stringAndIntMax = max(stringAndIntList);
         System.out.println("Max of stringAndIntMax: " + stringAndIntMax);
+        
+        /*
+         * Type inference: if i put empty brackets on the right of a non-generic declared variable
+         * java will automatically understand the type of the instance
+         * 
+         * This will work in context where the type of the right side of '=' is clear
+         * 
+         * */
+        Map<String, Integer> numbers = new HashMap<>();
+        mapPrinter(new HashMap<>()); // this will work
+        //maxT(new List<>()); // this wont since we don't know what should .maxT(List<T> list) take as parameter
 		
 	}	
 	
@@ -369,5 +382,9 @@ public class GenericsExample {
 	    }
 	    return max;
 	}
-
+	
+	public static void mapPrinter(Map<String, Integer> m) {
+		System.out.println(m);
+	}
+	
 }
